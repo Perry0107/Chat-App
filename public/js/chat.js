@@ -124,6 +124,6 @@ socket.emit('join', { username, room },(error)=>
     if(error)
     {
         alert(error)
-        location.href='../index.html'
+//         location.href='../index.html'
     }
 })
